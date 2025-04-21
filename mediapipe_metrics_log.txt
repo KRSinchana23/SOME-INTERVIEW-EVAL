@@ -1,0 +1,403 @@
+===== METRICS @ shishir roy =====
+
+🎯 Expected Output:
+{
+    "posture": 4,
+    "Eye Contact": 3,
+    "Smile Score": 3,
+    "Energetic Start": 4
+}
+🤖 Model Predicted Output:
+{
+    "posture": 3,
+    "Eye Contact": 2,
+    "Smile Score": 2,
+    "Energetic Start": 3
+}
+
+📽️ Video Duration: 120.40 seconds
+⏱️ Video Analysis Time Taken: 182.30 seconds
+
+Mean Absolute Error (MAE): 1.00
+Mean Squared Error (MSE): 1.00
+Exact Match Accuracy: 0.00%
+Soft Accuracy (±1): 100.00%
+
+Per-metric Error:
+ - posture: 1
+ - Eye Contact: 1
+ - Smile Score: 1
+ - Energetic Start: 1
+
+===== METRICS @ shishir roy =====
+
+🎯 Expected Output:
+{
+    "posture": 4,
+    "Eye Contact": 3,
+    "Smile Score": 3,
+    "Energetic Start": 4
+}
+🤖 Model Predicted Output:
+{
+    "posture": 3,
+    "Eye Contact": 2,
+    "Smile Score": 2,
+    "Energetic Start": 3
+}
+
+📽️ Video Duration: 120.40 seconds
+⏱️ Video Analysis Time Taken: 175.80 seconds
+
+Mean Absolute Error (MAE): 1.00
+Mean Squared Error (MSE): 1.00
+Exact Match Accuracy: 0.00%
+Soft Accuracy (±1): 100.00%
+
+Per-metric Error:
+ - posture: 1
+ - Eye Contact: 1
+ - Smile Score: 1
+ - Energetic Start: 1
+
+===== METRICS @ shishir roy =====
+
+🎯 Expected Output:
+{
+    "posture": 4,
+    "Eye Contact": 3,
+    "Smile Score": 3,
+    "Energetic Start": 4
+}
+🤖 Model Predicted Output:
+{
+    "posture": 3,
+    "Eye Contact": 2,
+    "Smile Score": 2,
+    "Energetic Start": 3
+}
+
+📽️ Video Duration: 120.40 seconds
+⏱️ Video Analysis Time Taken: 107.17 seconds
+
+Mean Absolute Error (MAE): 1.00
+Mean Squared Error (MSE): 1.00
+Exact Match Accuracy: 0.00%
+Soft Accuracy (±1): 100.00%
+
+Per-metric Error:
+ - posture: 1
+ - Eye Contact: 1
+ - Smile Score: 1
+ - Energetic Start: 1
+
+===== METRICS @ shishir roy =====
+
+🎯 Expected Output:
+{
+    "posture": 4,
+    "Eye Contact": 3,
+    "Smile Score": 3,
+    "Energetic Start": 4
+}
+🤖 Model Predicted Output:
+{
+    "posture": 3,
+    "Eye Contact": 2,
+    "Smile Score": 2,
+    "Energetic Start": 3
+}
+
+📽️ Video Duration: 120.40 seconds
+⏱️ Video Analysis Time Taken: 184.82 seconds
+
+Mean Absolute Error (MAE): 1.00
+Mean Squared Error (MSE): 1.00
+Exact Match Accuracy: 0.00%
+Soft Accuracy (±1): 100.00%
+
+Per-metric Error:
+ - posture: 1
+ - Eye Contact: 1
+ - Smile Score: 1
+ - Energetic Start: 1
+
+===== METRICS @ shishir roy =====
+
+🎯 Expected Output:
+{
+    "posture": 4,
+    "Eye Contact": 3,
+    "Smile Score": 3,
+    "Energetic Start": 4
+}
+🤖 Model Predicted Output:
+{
+    "posture": 3,
+    "Eye Contact": 2,
+    "Smile Score": 2,
+    "Energetic Start": 3
+}
+
+📽️ Video Duration: 120.40 seconds
+⏱️ Video Analysis Time Taken: 178.05 seconds
+
+Mean Absolute Error (MAE): 1.00
+Mean Squared Error (MSE): 1.00
+Exact Match Accuracy: 0.00%
+Soft Accuracy (±1): 100.00%
+
+Per-metric Error:
+ - posture: 1
+ - Eye Contact: 1
+ - Smile Score: 1
+ - Energetic Start: 1
+
+===== METRICS @ shishir roy =====
+
+🎯 Expected Output:
+{
+    "posture": 4,
+    "Eye Contact": 3,
+    "Smile Score": 3,
+    "Energetic Start": 4
+}
+🤖 Model Predicted Output:
+{
+    "posture": 3,
+    "Eye Contact": 2,
+    "Smile Score": 2,
+    "Energetic Start": 3
+}
+
+📽️ Video Duration: 120.40 seconds
+⏱️ Video Analysis Time Taken: 180.11 seconds
+
+Mean Absolute Error (MAE): 1.00
+Mean Squared Error (MSE): 1.00
+Exact Match Accuracy: 0.00%
+Soft Accuracy (±1): 100.00%
+
+Per-metric Error:
+ - posture: 1
+ - Eye Contact: 1
+ - Smile Score: 1
+ - Energetic Start: 1
+
+===== METRICS @ shishir roy =====
+
+🎯 Expected Output:
+{
+    "posture": 4,
+    "Eye Contact": 3,
+    "Smile Score": 3,
+    "Energetic Start": 4
+}
+🤖 Model Predicted Output:
+{
+    "posture": 3,
+    "Eye Contact": 2,
+    "Smile Score": 2,
+    "Energetic Start": 3
+}
+
+📽️ Video Duration: 120.40 seconds
+⏱️ Video Analysis Time Taken: 184.88 seconds
+
+Mean Absolute Error (MAE): 1.00
+Mean Squared Error (MSE): 1.00
+Exact Match Accuracy: 0.00%
+Soft Accuracy (±1): 100.00%
+
+Per-metric Error:
+ - posture: 1
+ - Eye Contact: 1
+ - Smile Score: 1
+ - Energetic Start: 1
+
+===== METRICS @ shishir roy =====
+
+🎯 Expected Output:
+{
+    "posture": 4,
+    "Eye Contact": 3,
+    "Smile Score": 3,
+    "Energetic Start": 4
+}
+🤖 Model Predicted Output:
+{
+    "posture": 3,
+    "Eye Contact": 2,
+    "Smile Score": 2,
+    "Energetic Start": 3
+}
+
+📽️ Video Duration: 120.40 seconds
+⏱️ Video Analysis Time Taken: 183.55 seconds
+
+Mean Absolute Error (MAE): 1.00
+Mean Squared Error (MSE): 1.00
+Exact Match Accuracy: 0.00%
+Soft Accuracy (±1): 100.00%
+
+Per-metric Error:
+ - posture: 1
+ - Eye Contact: 1
+ - Smile Score: 1
+ - Energetic Start: 1
+
+===== METRICS @ shishir roy =====
+
+🎯 Expected Output:
+{
+    "posture": 4,
+    "Eye Contact": 3,
+    "Smile Score": 3,
+    "Energetic Start": 4
+}
+🤖 Model Predicted Output:
+{
+    "posture": 3,
+    "Eye Contact": 2,
+    "Smile Score": 2,
+    "Energetic Start": 3
+}
+
+📽️ Video Duration: 120.40 seconds
+⏱️ Video Analysis Time Taken: 185.57 seconds
+
+Mean Absolute Error (MAE): 1.00
+Mean Squared Error (MSE): 1.00
+Exact Match Accuracy: 0.00%
+Soft Accuracy (±1): 100.00%
+
+Per-metric Error:
+ - posture: 1
+ - Eye Contact: 1
+ - Smile Score: 1
+ - Energetic Start: 1
+
+===== METRICS @ shishir roy =====
+
+🎯 Expected Output:
+{
+    "posture": 4,
+    "Eye Contact": 3,
+    "Smile Score": 3,
+    "Energetic Start": 4
+}
+🤖 Model Predicted Output:
+{
+    "posture": 3,
+    "Eye Contact": 2,
+    "Smile Score": 2,
+    "Energetic Start": 3
+}
+
+📽️ Video Duration: 120.40 seconds
+⏱️ Video Analysis Time Taken: 106.92 seconds
+
+Mean Absolute Error (MAE): 1.00
+Mean Squared Error (MSE): 1.00
+Exact Match Accuracy: 0.00%
+Soft Accuracy (±1): 100.00%
+
+Per-metric Error:
+ - posture: 1
+ - Eye Contact: 1
+ - Smile Score: 1
+ - Energetic Start: 1
+
+===== METRICS @ shishir roy =====
+
+🎯 Expected Output:
+{
+    "posture": 4,
+    "Eye Contact": 3,
+    "Smile Score": 3,
+    "Energetic Start": 4
+}
+🤖 Model Predicted Output:
+{
+    "posture": 3,
+    "Eye Contact": 2,
+    "Smile Score": 2,
+    "Energetic Start": 3
+}
+
+📽️ Video Duration: 120.40 seconds
+⏱️ Video Analysis Time Taken: 179.75 seconds
+
+Mean Absolute Error (MAE): 1.00
+Mean Squared Error (MSE): 1.00
+Exact Match Accuracy: 0.00%
+Soft Accuracy (±1): 100.00%
+
+Per-metric Error:
+ - posture: 1
+ - Eye Contact: 1
+ - Smile Score: 1
+ - Energetic Start: 1
+
+===== METRICS @ shishir roy =====
+
+🎯 Expected Output:
+{
+    "posture": 4,
+    "Eye Contact": 3,
+    "Smile Score": 3,
+    "Energetic Start": 4
+}
+🤖 Model Predicted Output:
+{
+    "posture": 3,
+    "Eye Contact": 2,
+    "Smile Score": 2,
+    "Energetic Start": 3
+}
+
+📽️ Video Duration: 120.40 seconds
+⏱️ Video Analysis Time Taken: 177.68 seconds
+
+Mean Absolute Error (MAE): 1.00
+Mean Squared Error (MSE): 1.00
+Exact Match Accuracy: 0.00%
+Soft Accuracy (±1): 100.00%
+
+Per-metric Error:
+ - posture: 1
+ - Eye Contact: 1
+ - Smile Score: 1
+ - Energetic Start: 1
+
+===== METRICS @ shishir roy =====
+
+🎯 Expected Output:
+{
+    "posture": 4,
+    "Eye Contact": 3,
+    "Smile Score": 3,
+    "Energetic Start": 4
+}
+🤖 Model Predicted Output:
+{
+    "posture": 3,
+    "Eye Contact": 2,
+    "Smile Score": 2,
+    "Energetic Start": 3
+}
+
+📽️ Video Duration: 120.40 seconds
+⏱️ Video Analysis Time Taken: 189.35 seconds
+
+Mean Absolute Error (MAE): 1.00
+Mean Squared Error (MSE): 1.00
+Exact Match Accuracy: 0.00%
+Soft Accuracy (±1): 100.00%
+
+Per-metric Error:
+ - posture: 1
+ - Eye Contact: 1
+ - Smile Score: 1
+ - Energetic Start: 1
+
