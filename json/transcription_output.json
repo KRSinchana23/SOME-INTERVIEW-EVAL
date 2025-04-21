@@ -1,47 +1,92 @@
 [
     {
         "start": 0,
-        "end": 13.78,
-        "text": " Hello everyone, I invite you to know a new tool that we want our learners to try using. This tool is going to be a video analysis tool and it will give automatic feedback to the learner."
+        "end": 20,
+        "text": " Greetings, respected members of the search committee. I am Nikesh Chachadiya, currently pursuing M.Tech in Computational and Data Sciences Department at Indian Institute of Science, Bangalore."
     },
     {
-        "start": 13.78,
-        "end": 21.78,
-        "text": " but as the name suggests it's quite straightforward. Learner will upload his video and he'll get a report."
+        "start": 20,
+        "end": 24,
+        "text": " I am seeking a job in AI, ML and Data Science studies."
     },
     {
-        "start": 21.78,
-        "end": 32.78,
-        "text": " So I think it will be useful to you also. You can save your time and check in and all that because the report will come automatically."
+        "start": 24,
+        "end": 33,
+        "text": " Before starting my current journey, I completed my BS-MS 12th degree in Mathematics with a minor in Data Science and Engineering at the Institute of Science Education and Research in Bhopal."
     },
     {
-        "start": 32.78,
-        "end": 41.78,
-        "text": " But yeah, I guess it will be useful and we'll arrange a demo. You need a demo. So we'll arrange a demo so you're comfortable"
+        "start": 33,
+        "end": 38,
+        "text": " During this time, I became very interested in Data Science, Machine Learning and Artificial Intelligence."
     },
     {
-        "start": 41.78,
-        "end": 50.78,
-        "text": " and you can give your feedback too on the tools if it needs to be improved, if it's not working, if it has any problems"
+        "start": 38,
+        "end": 45,
+        "text": " My studies mainly focus on Mathematics, especially Probability Theory and Graph Theory which are crucial for Machine Learning and Deep Learning."
     },
     {
-        "start": 50.78,
-        "end": 61.78,
-        "text": " and yeah, when you try it out then you let me know. I guess that would be good and I'll inform you when we're going to test it"
+        "start": 45,
+        "end": 48,
+        "text": " My MSc project was about Random Simplified Complexes."
     },
     {
-        "start": 61.78,
-        "end": 67.78,
-        "text": " I'll let you know in a few days, a day or two maybe."
+        "start": 48,
+        "end": 54.76,
+        "text": " It explored how random graphs work in higher dimensions and their use in higher dimensional networks and topological data analysis."
     },
     {
-        "start": 67.78,
-        "end": 72.78,
-        "text": " I'll let you know when we can test it and yeah, I'll be in touch."
+        "start": 54.76,
+        "end": 68.665306,
+        "text": " Yet just learning theory wasn enough I worked on various practical projects alongside my studies This ranged from computer vision and natural language processing to machine learning For example I built support vector machine and came in clustering algorithms from scratch"
     },
     {
-        "start": 72.78,
-        "end": 75.78,
-        "text": " Okay? So sounds good. It'll be a good tool. Thank you."
+        "start": 68.665306,
+        "end": 73.78531,
+        "text": " showing my skills in algorithm development and problem solving. I also did projects on image"
+    },
+    {
+        "start": 73.78531,
+        "end": 77.86531,
+        "text": " compression using singular value decomposition and created a convolutional neural network to"
+    },
+    {
+        "start": 77.86531,
+        "end": 82.905304,
+        "text": " decode captures with high accuracy. Furthermore, I have received several awards during my academic"
+    },
+    {
+        "start": 82.905304,
+        "end": 87.22531,
+        "text": " journey like Mukti Mantri, Melhalla Vidyarthi Fellowship and good scores in national level"
+    },
+    {
+        "start": 87.22531,
+        "end": 92.58531,
+        "text": " exams such as GATE and CSIRNET, GRF. Overall, my mix of theoretical knowledge,"
+    },
+    {
+        "start": 92.58531,
+        "end": 96.8253,
+        "text": " practical skills and a strong desire for excellence makes me a good fit for the AIML"
+    },
+    {
+        "start": 96.8253,
+        "end": 102.10531,
+        "text": " data science role at your esteemed organization. I am excited about the chance to share my expertise"
+    },
+    {
+        "start": 102.10531,
+        "end": 105.94531,
+        "text": " and work with your team to bring innovation and make meaningful contribution to the field."
+    },
+    {
+        "start": 105.94531,
+        "end": 110.665306,
+        "text": " Thank you for considering my application. I eagerly await the opportunity to discuss further"
+    },
+    {
+        "start": 110.665306,
+        "end": 115.06531,
+        "text": " how I can contribute to your team. Thank you."
     }
 ]
