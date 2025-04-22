@@ -140,8 +140,8 @@ app.secret_key = "your_secret_key_here"  # needed for flashing messages
 # AWS S3 Configuration
 S3_BUCKET = "some-prod2025"
 S3_REGION = "ap-south-1"  # e.g., "us-east-1"
-AWS_ACCESS_KEY = "AKIAQ62SYYKOTTYZ2NUD"
-AWS_SECRET_KEY = "1x+p5ahmkofb0A5Wjpq8/+EZKtS9TW0fbOpiLP31"
+AWS_ACCESS_KEY = ""
+AWS_SECRET_KEY = ""
 
 # Initialize boto3 client with credentials
 s3_client = boto3.client(
