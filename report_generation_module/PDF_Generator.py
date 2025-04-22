@@ -536,8 +536,8 @@ from LLM_Module.Overall_Analyser import VideoResumeEvaluator
 from config import save_path
 
 # Register fonts
-pdfmetrics.registerFont(TTFont('Arial', r'/home/sriram/Downloads/SOME-INTERVIEW-EVAL/fonts/ARIAL.TTF'))
-pdfmetrics.registerFont(TTFont('Arial-Bold', r'/home/sriram/Downloads/SOME-INTERVIEW-EVAL/fonts/ARIALBD.TTF'))
+pdfmetrics.registerFont(TTFont('Arial', r'fonts/ARIAL.TTF'))
+pdfmetrics.registerFont(TTFont('Arial-Bold', r'fonts/ARIALBD.TTF'))
 styles = getSampleStyleSheet()
 styles['BodyText'].fontName = 'Arial'
 
