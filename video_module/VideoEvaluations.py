@@ -6,6 +6,7 @@ import mediapipe as mp
 from deepface import DeepFace
 import json
 import math
+import librosa
 from sklearn.metrics import mean_absolute_error, mean_squared_error, accuracy_score
 from LLM_Module.newtranscriber import VideoTranscriber
 import moviepy.editor as mpedit
@@ -354,6 +355,49 @@ class VideoAnalyzer:
             print(f"[DeepFace] Emotion detection error: {e}")
 
         return self.smile_count, self.positive_expression_count
+    
+    def extract_audio_features(self, video_path, duration_limit=None):
+        print(f"\n[AUDIO] Starting audio feature extraction...")
+        
+        # Extract audio
+        clip = mpedit.VideoFileClip(video_path)
+        if duration_limit:
+            clip = clip.subclip(0, duration_limit)
+        
+        temp_audio_path = "temp_audio.wav"
+        clip.audio.write_audiofile(temp_audio_path, fps=16000, verbose=False, logger=None)
+        
+        y, sr_ = librosa.load(temp_audio_path, sr=16000)
+        print(f"[AUDIO] Loaded audio: {len(y)} samples at {sr_} Hz")
+
+        # Volume (RMS)
+        rms = np.sqrt(np.mean(y**2))
+        print(f"[AUDIO] Volume (RMS): {rms:.4f}")
+
+        # Pitch (smoothed)
+        pitches, magnitudes = librosa.piptrack(y=y, sr=sr_)
+        pitch_values = pitches[magnitudes > np.median(magnitudes)]
+        pitch = np.mean(pitch_values) if len(pitch_values) > 0 else 0
+        print(f"[AUDIO] Pitch: {pitch:.2f} Hz")
+
+        # Use Whisper for fast offline transcription
+        print(f"[AUDIO] Transcribing using Whisper base model...")
+        model = whisper.load_model("base")
+        result = self.whisper_model.transcribe(temp_audio_path, fp16=False)
+        text = result["text"]
+        word_count = len(text.split())
+        duration = duration_limit if duration_limit else clip.duration
+        wpm = (word_count / duration) * 60
+        print(f"[AUDIO] Transcribed text: {text[:100]}... ({word_count} words, {wpm:.2f} WPM)")
+
+        return {"volume": rms, "pitch": pitch, "wpm": wpm}
+    
+    def normalize(self, val, min_val, max_val):
+        print(f"[NORMALIZE] Raw value: {val:.4f}, Range: ({min_val} to {max_val})")
+        scaled = 5 * (val - min_val) / (max_val - min_val)
+        clipped = max(0, min(5, scaled))
+        print(f"[NORMALIZE] Scaled value: {scaled:.4f}, Clipped to: {clipped:.2f}")
+        return clipped
 
     def analyze_video(self):
         print("[VIDEO] Analyzing video...")
@@ -402,19 +446,38 @@ class VideoAnalyzer:
         positive_expression_score=min(5, int(round(math.log1p(positive_expression_rate))))
         print(positive_expression_score)
 
-        
-        audio_wav_path = os.path.join("audio", "temp_audio.wav")
-        audio_json_path = os.path.join("audio", "temp_transcript.json")
-        os.makedirs("audio", exist_ok=True)
+        audio_features = self.extract_audio_features(temp_video_path)
 
-        transcriber = VideoTranscriber(temp_video_path, audio_wav_path, audio_json_path)
-        audio_features = transcriber.get_audio_features()
+        # Split metrics
+        # voice_start = audio_features if video_duration <= 15 else self.extract_audio_features(temp_video_path, duration_limit=15)
+        voice_total = audio_features
+
+        # # Score normalization
+        # energy_start = (
+        #     self.normalize(voice_start["volume"], 0.01, 0.1) +
+        #     self.normalize(voice_start["pitch"], 80, 300) +
+        #     self.normalize(voice_start["wpm"], 80, 180)
+        # ) / 3
 
         energy_total = (
-            audio_features["volume"] +
-            audio_features["pitch"] +
-            audio_features["wpm"]
+            self.normalize(voice_total["volume"], 0.01, 0.1) +
+            self.normalize(voice_total["pitch"], 80, 300) +
+            self.normalize(voice_total["wpm"], 80, 180)
         ) / 3
+
+        
+        # audio_wav_path = os.path.join("audio", "temp_audio.wav")
+        # audio_json_path = os.path.join("audio", "temp_transcript.json")
+        # os.makedirs("audio", exist_ok=True)
+
+        # transcriber = VideoTranscriber(temp_video_path, audio_wav_path, audio_json_path)
+        # audio_features = transcriber.get_audio_features()
+
+        # energy_total = (
+        #     audio_features["volume"] +
+        #     audio_features["pitch"] +
+        #     audio_features["wpm"]
+        # ) / 3
 
         print(f"volume:{audio_features['volume']}, pitch:{audio_features['pitch']}, wpm:{audio_features['wpm']}, energy:{energy_total}")
 
